@@ -22,11 +22,12 @@
                     <input type="text" class="form-control" id="age"> 
                 </div>
                 <div class="col-12 py-3">
-                    <button type="submit" class="btn btn-primary">Calcola</button>
+                    <button type="submit" class="btn btn-primary" id="button">Calcola</button>
                 </div>
         
             </div>
         </div>
+        <!-- creo una tabella nella quale inserire tutti i dati -->
         <div class="container">
             <table class="table">
                 <thead>
@@ -36,10 +37,19 @@
                         </th>
                     </tr>
                 </thead>
+                <!-- utilizzo 2 td ogni riga, la prima per fare un recap, la seconda per inserire i dati -->
                 <tbody>
                     <tr>
-                        <td id="prezzoTotale">-----
-                        </td>
+                        <td id="kmTotali">Km trascorsi</td>
+                        <td>---</td>
+                    </tr>
+                    <tr>
+                        <td id="etaCliente">Età</td>
+                        <td>---</td>
+                    </tr>
+                    <tr>
+                        <td id="costoTotale">Costo</td>
+                        <td>---</td>
                     </tr>
                 </tbody>
             </table>
